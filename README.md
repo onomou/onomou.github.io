@@ -1,0 +1,1 @@
+This is the landing page for my frequently neglected coding projects hosted on GitHub. Examples include a Sprouts game engine, interactive IFS fractal generator, and modifications of Garrett Wilson's excellent school bell system.
