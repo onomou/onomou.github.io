@@ -1,14 +1,50 @@
 body {
 background-color: #f1f1f1;
-margin: 0;
+margin: 0px 0px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 display: block;
 }
 
-.container {
+#mainContent {
+margin: 10px auto;
+width: 90%;//600px;
+}
+
+.col1 {
+text-align: left;
+margin: 0px;
+width: 20%;//600px;
+float:left;
+}
+.col2 {
 text-align: center;
-margin: 50px auto 40px auto;
-width: 600px;
+margin: 0px;
+width: 60%;//600px;
+float:left;
+}
+.col3 {
+text-align: right;
+margin: 0px;
+width: 20%;//600px;
+float:left;
+}
+
+.twocol {
+margin: 50px auto;
+width: 90%;//600px;
+}
+
+.twocolcol {
+text-align: center;
+width: 40%;//600px;
+float:left;
+border:1px solid black;
+}
+
+.fullwidth {
+clear: both;
+width: 100%;
+overflow: auto;
 }
 
 /* Ripped off of GitHub.io's default 404 page */
@@ -18,9 +54,13 @@ a:hover { text-decoration: underline; }
 
 h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
 p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
-
+/*
 ul { list-style: none; margin: 25px 0; padding: 0; }
 li { display: table-cell; font-weight: bold; width: 1%; }
+*/
+li {color: rgba(0, 0, 0, 0.5);}
+ul.bullets {list-style-type: disc; margin: 0 -15px; }
+ul.nobullets{list-style-type: none; margin:0px 0px;}
 
 .logo { display: inline-block; margin-top: 35px; }
 .logo-img-2x { display: none; }
