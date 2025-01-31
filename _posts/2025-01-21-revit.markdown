@@ -1,0 +1,8 @@
+---
+layout: post
+title:  Notes about Revit
+categories: revit programming
+---
+# Code Snippets coming soon...
+
+# [Annoyances and Bugs]({% post_url 2025-01-21-revit-bugs %})
